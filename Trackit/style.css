@@ -1,0 +1,124 @@
+/*
+html, body {
+  height:100%;
+}
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+  align-content: center;
+  text-align-last: center;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Slabo 27px', serif;
+  background-image: url(https://images.unsplash.com/photo-1460574283810-2aab119d8511?crop=entropy&fit=crop&fm=jpg&h=600&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+ 
+}
+
+img {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  color:#000000;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+
+ button, select {
+   font-size: 20px ;
+   font-family: 'Slabo 27px', serif;
+  display: block;
+   margin:0 auto;
+   cursor: pointer;
+   border: 2px solid;
+}
+
+select {
+  background-color: black;
+  color: white;
+  opacity: .95;
+  font-size: 160%,
+  display: block;
+  margin:0 auto;
+  padding: 5px;
+ 
+
+  
+}
+
+button {
+
+  opacity: .95;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 10px;
+  margin:20px auto;
+
+}
+
+button:hover {
+  background-color: coral;
+    font-size: 21px;
+}
+
+  
+a {
+  color: red;
+}
+
+section {
+  background: rgba(255,255,255,0.6);
+  Max-width: 500px;
+  display: block;
+  Margin: 100px auto;
+}
+/*search results*/
+ul{
+list-style: none;
+  padding:0;
+}
+  
+li img {
+  max-width: 100px;
+  border-radius: 100px;
+  border: solid 2px ;
+  float: left;
+  Margin-right: 20px;
+}
+
+li {
+  background-color: white;
+  opacity: 0.9;
+  padding: 20px;
+  Margin-bottom: 20px;
+  min-height: 100px;
+  text-align: left;
+}
+
+li p {
+  text-align: left;
+}
+p {
+  color:darkblue;
+  font-size: 13px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.buttontext { 
+  color: black;
+  text-decoration:none; 
+}
+
+.country {
+  color:inherit;
+}

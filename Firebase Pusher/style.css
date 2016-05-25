@@ -1,0 +1,106 @@
+/* FONTS from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300,600);
+@import url(https://fonts.googleapis.com/css?family=Lekton:400,400italic,700);
+
+* 
+{
+  box-sizing: border-box;
+}
+
+html
+{
+  font-size: 18px;
+}
+
+body 
+{
+  font-family: 'Lekton', sans-serif;
+  line-height: 1.5;
+  color: rgb(68, 68, 68);
+
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+b
+{
+  color: rgb(34, 34, 34);
+}
+
+h1 
+{
+  color: black;
+  text-align: center;
+}
+
+/* FORM */
+
+input[type="url"], input[type="text"], input[type="number"], select, button, textarea 
+{
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5em;
+  margin: .25em auto 1em;
+  border: 2px solid rgb(144, 38, 222);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 6px;
+  transition: .6s;
+}
+
+input:focus
+{
+  border-color: rgb(246, 15, 171);
+  outline: none;
+}
+
+input:reset
+{
+  background: rgb(144, 38, 222);
+  color: white;
+  border-color: rgb(246, 15, 171);
+}
+/* BUTTON */
+
+button 
+{
+  background: rgb(144, 38, 222);
+  color: white;
+  border-color: rgb(246, 15, 171);
+}
+
+/* this will change how the button looks when you roll over it */
+button:hover 
+{
+  background: rgb(246, 15, 171);
+}
+
+/* CODE */
+kbd, code 
+{
+  font-family: 'Source Code Pro', monospace  !important;
+  font-size: 83%;
+  font-weight: 300;
+  display: inline-block;
+  padding: .1rem .5rem .2rem  !important;
+  vertical-align: middle;
+  border-radius: .3rem;
+}
+
+kbd, code 
+{
+  color: rgb(85, 85, 85);
+  background-color: rgb(252, 252, 252);
+  border: solid 1px rgb(204, 204, 204);
+/*  border-bottom-color: rgb(187, 187, 187);*/
+/*  box-shadow: inset 0 -1px 0 rgb(187, 187, 187);*/
+}
+
+.details-bar.cleanslate.mouse-mode 
+{
+  /*  display: none !important;*/
+}

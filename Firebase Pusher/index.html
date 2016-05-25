@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Firebase Pusher</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  
+  <body>
+    <!--
+    <h2>Firebase Pusher</h2>
+    
+    <p>
+      Use this form to <b>push data</b> for a <code>person</code> to our Firebase database.  
+    </p>
+    
+    <h3>
+      If you're remixing this:
+    </h3>
+    <ol>
+      <li>In <code>app.js</code> change <code>databaseURL</code> so that it points to your own Firebase.</li>
+      <li>In <code>index.html</code> edit the <code>form</code> below, in particular change all the <code>name</code> attributes for your fields to reflect the data you want to store in Firebase. For instance, change <code>&lt;input name="codingSkills" ...</code> to <code>&lt;input name="YOUR_VARIABLE_NAME" ...</code></li>
+    </ol>
+    --->
+    <h1>
+      Rank your Country Here!
+    </h1>
+<h4>
+  rate your country on a scale of 1-5 based on the folloing factors:
+    </h4>
+    <form action="" method="post">
+      
+      <p>
+        1.Country <b>Name</b> <input name="name" type="text" placeholder="e.g. USA">  
+      </p>
+      
+
+    <!--
+      <p>
+        How <b>old</b> are you? <input name="age" type="number" min="0" max="120" placeholder="e.g. 18">  
+      </p>
+      -->
+      
+      
+      <p>
+        <b>Openness to Immigration??</b> (0-5) <input name="immigration" type="number" min="0" max="5">  
+      </p>
+      
+      
+      <p>
+        <b> Economic and Political Stability??</b> (0-5) <input name="stability" type="number" min="0" max="5">  
+      </p>
+
+      <p>
+        <b> Job Opportunity??</b> (0-5) <input name="employment" type="number" min="0" max="5">  
+      </p>      
+      <p>
+        <b> Higher Education??</b> (0-5) <input name="education" type="number" min="0" max="5">  
+      </p>
+      <p>
+        <b>How is the average weather??</b> (0-5) <input name="weather" type="number" min="0" max="5">  
+      </p>
+
+<!--
+      <p>
+      <b>Love</b> (0-5) <input name="love" type="number" min="0" max="5">  
+      </p>
+
+
+      <p>
+      <b>Sex</b> (0-5) <input name="sex" type="number" min="0" max="5">  
+      </p>
+
+
+      <p>
+      <b>Money</b> (0-5) <input name="money" type="number" min="0" max="5">  
+      </p>
+
+
+      <p>
+      <b>Education</b> (0-5) <input name="education" type="number" min="0" max="5">  
+      </p>
+
+
+      <p>
+      <b>Organisation</b> (0-5) <input name="organisation" type="number" min="0" max="5">  
+      </p>
+
+
+
+      <p>
+      <b>Growth</b> (0-5) <input name="growth" type="number" min="0"    max="5">  
+      </p>
+
+      
+      
+      
+      <p>
+        <b>Happiness</b> (0-5) <input name="happiness" type="number" min="0" max="5">  
+      </p>
+ 
+
+      <p>
+        <b>Health</b> (0-5) <input name="health" type="number" min="0" max="5">  
+      </p>
+
+      
+      <p>
+        <b>Relationship</b> (0-5) <input name="relationship" type="number" min="0" max="5">  
+      </p>
+      
+      
+      <p>
+        <b>Work</b> (0-5) <input name="work" type="number" min="0" max="5">  
+      </p>
+      
+
+      <p>
+        <b>Motivation</b> (0-5) <input name="motivation" type="number" min="0" max="5">  
+      </p>
+      
+      
+      <p>
+        <b>Productivity</b> (0-5) <input name="productivity" type="number" min="0" max="5">  
+      </p>
+
+
+      
+      <!--
+      <p>
+        Do you like <b>pets</b>?
+        <br><input type="checkbox" value="true" name="likePets"> Yes
+      </p>
+      
+      
+      
+      <p>
+        The <b>intro</b> of the article <textarea name="about" placeholder="This article's intro is …"></textarea>  
+      </p>
+      
+ --->
+      <p>
+        Your <b> Country flag</b> URL please <input name="image" type="url">  
+      </p>
+      <p>
+        Your <b> Country Wiki</b> URL please <input name="wikipage" type="url">  
+      </p>
+      
+      <p>
+        <button type="submit">Sumbit your Vote!</button>
+        <button type="reset">
+          Reset the form
+        </button> 
+      </p>
+    </form>
+      <p>
+        <button onclick="location.href = 'https://thimbleprojects.org/codeyourapp/71535/';" id="myButton" class="float-left submit-button" >Go back to the result page</button>     
+      </p>
+    
+    
+    <!-- LOAD JS after everything else -->
+    <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+    <script src="jquery.js"></script>
+    <script src="jquery.getFormData.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
